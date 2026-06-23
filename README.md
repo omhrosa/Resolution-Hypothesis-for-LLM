@@ -59,7 +59,7 @@ The goal is to provide a framework that can be criticized, refined, tested, or e
 
 ## Contents
 
-* `paper.md` – Full hypothesis.
+* `proposal.md` – Full hypothesis.
 * `README.md` – Overview.
 * Future additions may include:
 
