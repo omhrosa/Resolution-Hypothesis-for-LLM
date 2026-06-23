@@ -1,6 +1,18 @@
-# Resolution Hypothesis: A Unified Interpretation of Emergent Capabilities in Large Language Models
+# Resolution Hypothesis
 
-## Abstract
+## A Unified Interpretation of Capability Emergence in Large Language Models
+
+### Status
+
+This document describes an open conceptual hypothesis.
+
+It is not a proven theory.
+
+It is intended as a falsifiable framework for reasoning about capability emergence in modern AI systems.
+
+---
+
+# Abstract
 
 The Resolution Hypothesis proposes that many capabilities commonly described as emergent in large language models are not independent cognitive faculties.
 
@@ -8,31 +20,35 @@ Instead, they are correlated manifestations of a common underlying phenomenon:
 
 **Increasing Representational Fidelity ("Resolution").**
 
-As models scale, they become increasingly capable of faithfully representing both:
+As AI systems improve, they become increasingly capable of faithfully representing:
 
-1. Human knowledge.
-2. Human cognitive patterns.
+* human knowledge,
+* human cognitive patterns,
+* relationships between concepts,
+* abstractions,
+* causal structures,
+* transformations of information.
 
-Reasoning, abstraction, analogy, planning, generalization, contextual understanding, and nuanced behavior may therefore emerge together because they depend on the same underlying representational substrate.
+The hypothesis suggests that many advanced capabilities emerge because increasingly faithful internal representations unlock access to increasingly sophisticated structures already embedded within the training corpus.
 
 ---
 
-# Core Insight
+# Core Idea
 
-Modern language models are trained on human-generated corpora.
+Human-generated corpora contain more than facts.
 
-These corpora contain not only facts and knowledge, but also traces of human cognition:
+They also contain traces of human cognition:
 
-* explanations,
 * scientific reasoning,
 * mathematical proofs,
+* explanations,
 * analogies,
 * theory construction,
 * abstraction,
-* problem-solving,
-* causal analysis.
+* synthesis,
+* problem-solving processes.
 
-Training data therefore contain both:
+Training data therefore contain:
 
 ```text
 Human Knowledge
@@ -40,15 +56,17 @@ Human Knowledge
 Human Cognitive Patterns
 ```
 
-The hypothesis proposes that scaling progressively improves the fidelity with which models represent both.
+The hypothesis proposes that AI systems progressively learn increasingly faithful representations of both.
 
 ---
 
 # What Is Resolution?
 
-Resolution is not intended as a metaphor.
+Resolution refers to representational fidelity.
 
-It refers to the fidelity of the model's internal representation of:
+It is not intended as a metaphor.
+
+Resolution describes how accurately a system internally represents:
 
 * concepts,
 * relationships,
@@ -57,9 +75,9 @@ It refers to the fidelity of the model's internal representation of:
 * context-dependent meanings,
 * cognitive transformations.
 
-Higher resolution means the model preserves finer distinctions and richer relational structure without collapsing them into coarse approximations.
+Higher resolution allows finer distinctions and richer relational structure to be preserved.
 
-Resolution may arise from improvements in:
+Resolution may emerge from:
 
 * concept separability,
 * relational fidelity,
@@ -70,15 +88,54 @@ Resolution may arise from improvements in:
 
 ---
 
-# Proposed Mechanism
+# Resolution Is The Core Variable
 
-The hypothesis proposes the following causal chain:
+The hypothesis does not claim that scale itself creates intelligence.
+
+Instead:
 
 ```text
-Scaling
+Architecture
++
+Attention Mechanisms
++
+Training Methods
++
+Data Quality
++
+Scale
 ↓
-Higher Representational Fidelity
-(Resolution)
+Resolution
+↓
+Capabilities
+```
+
+Resolution is the latent variable.
+
+Scale is only one possible mechanism for increasing it.
+
+Other mechanisms may include:
+
+* improved architectures,
+* better attention mechanisms,
+* higher quality data,
+* improved training procedures,
+* future architectures not yet invented.
+
+---
+
+# Proposed Mechanism
+
+```text
+Architecture
++
+Training
++
+Data
++
+Scale
+↓
+Increasing Resolution
 ↓
 More Faithful Representation of
 Knowledge and Cognitive Patterns
@@ -90,43 +147,52 @@ More Valid Inference Pathways
 More Sophisticated Behavior
 ```
 
-The central claim is that many advanced capabilities do not arise because new cognitive modules suddenly appear.
-
-Rather, they arise because increasingly faithful representations unlock access to increasingly sophisticated structures already embedded within the training corpus.
+The hypothesis proposes that advanced capabilities emerge because increasingly faithful representations unlock increasingly sophisticated structures already present within the corpus.
 
 ---
 
 # Interpretation of Reasoning
 
-The hypothesis treats reasoning primarily as a manifestation of structured traversal through richly represented knowledge and cognitive patterns.
+Reasoning is not treated as a separate magical faculty.
 
-Human texts do not only contain conclusions.
+Human texts contain not only conclusions but also transformations.
 
-They also contain the transformations that produced those conclusions.
+The corpus contains countless examples of:
 
-As representational fidelity increases, the model becomes increasingly capable of reconstructing and utilizing those transformations.
+* abstraction,
+* decomposition,
+* synthesis,
+* analogy,
+* theory formation,
+* causal reasoning.
+
+As resolution increases, models become increasingly capable of representing and utilizing these cognitive patterns.
+
+Reasoning is therefore interpreted primarily as structured traversal through richly represented knowledge and cognitive patterns.
 
 ---
 
 # Capability Clustering
 
-If the hypothesis is correct, many advanced capabilities should improve together because they share the same underlying representational substrate.
-
-Examples include:
+Many capabilities appear to improve together:
 
 * reasoning,
 * abstraction,
 * analogy,
 * planning,
-* contextual understanding,
 * generalization,
+* contextual understanding,
 * nuanced explanation.
 
-This predicts capability clustering rather than fully independent capability emergence.
+The hypothesis predicts this behavior because these capabilities share a common representational substrate.
+
+They are not necessarily independent faculties.
+
+They may instead be different manifestations of increasing resolution.
 
 ---
 
-# Role of Computation
+# Knowledge vs Accessibility
 
 The hypothesis distinguishes between:
 
@@ -140,11 +206,13 @@ Computational Accessibility
 How effectively the model can access it
 ```
 
-Training creates the latent knowledge structures and cognitive patterns.
+Training creates the latent structures.
 
-Inference-time computation primarily acts as an access mechanism that reveals and utilizes those structures.
+Inference-time computation primarily determines how effectively those structures can be accessed and utilized.
 
-Computation improves capability realization, but does not itself create knowledge that was never learned.
+Computation improves access.
+
+Resolution determines what exists to be accessed.
 
 ---
 
@@ -152,19 +220,19 @@ Computation improves capability realization, but does not itself create knowledg
 
 The hypothesis does not predict a specific intelligence ceiling.
 
-Two possibilities remain open:
+Two possibilities remain open.
 
-### Scenario A
+## Scenario A
 
 Humanity has already extracted most useful structure from its knowledge.
 
-Future systems may exceed human performance only moderately.
+Future systems may exceed human capabilities only moderately.
 
-### Scenario B
+## Scenario B
 
 Large amounts of latent structure remain unexplored within existing human knowledge.
 
-In this case, sufficiently high-resolution systems may discover valuable relationships that humans have never explicitly identified.
+High-resolution systems may discover useful relationships that humans have never explicitly recognized.
 
 The hypothesis remains agnostic regarding which scenario is correct.
 
@@ -178,31 +246,31 @@ The information content of a corpus may greatly exceed the information explicitl
 
 # Resolution Extraction Principle
 
-Increasing representational fidelity may allow a model to recover useful relationships that are already implicit within the corpus but have never been explicitly identified.
+Increasing representational fidelity may allow systems to recover useful relationships already implicit within the corpus but never explicitly identified.
 
 ---
 
 # Predictions
 
-### P1
+## P1
 
 Reasoning, abstraction, analogy, planning, and contextual understanding should tend to improve together.
 
-### P2
+## P2
 
-Data quality should significantly affect capability because it affects the quality of learned representations.
+Data quality should strongly influence capability because it affects representational fidelity.
 
-### P3
+## P3
 
-Representational fidelity should be a stronger predictor of advanced capabilities than parameter count alone.
+Resolution should be a better predictor of advanced capabilities than parameter count alone.
 
-### P4
+## P4
 
-Higher-resolution models should demonstrate increasing ability to recover latent relationships not explicitly stated in training data.
+Higher-resolution systems should increasingly discover latent relationships embedded within existing knowledge.
 
-### P5
+## P5
 
-Models with similar architectures, similar data quality, and similar representational fidelity should converge toward similar capability profiles.
+Different architectures achieving similar effective resolution should converge toward similar capability profiles.
 
 ---
 
@@ -210,29 +278,29 @@ Models with similar architectures, similar data quality, and similar representat
 
 The hypothesis would be weakened if:
 
-### F1
+## F1
 
 Reasoning improves dramatically without corresponding improvements in abstraction, generalization, or contextual understanding.
 
-### F2
+## F2
 
 Representational quality remains unchanged while advanced capabilities improve substantially.
 
-### F3
+## F3
 
-Models consistently demonstrate sophisticated reasoning despite poor representational fidelity.
+Sophisticated reasoning consistently emerges despite poor representational fidelity.
 
-### F4
+## F4
 
-Advanced capabilities are shown to arise primarily from specialized reasoning modules independent of representational quality.
+Advanced capabilities are shown to arise primarily from specialized reasoning mechanisms independent of representational quality.
 
 ---
 
 # Scope
 
-The Resolution Hypothesis is not a complete theory of general intelligence.
+The Resolution Hypothesis is not intended as a complete theory of intelligence.
 
-It is primarily a theory of capability emergence in pretrained language models.
+It is primarily a theory of capability emergence in AI systems that learn from large corpora.
 
 Capabilities such as:
 
@@ -242,14 +310,16 @@ Capabilities such as:
 * environmental interaction,
 * self-modification,
 
-likely require additional mechanisms beyond representational fidelity alone.
+may require additional mechanisms beyond resolution alone.
 
 ---
 
 # Summary
 
-The Resolution Hypothesis proposes that scaling improves the fidelity with which language models represent both human knowledge and human cognitive patterns.
+The Resolution Hypothesis proposes that many apparent emergent capabilities are manifestations of a single underlying phenomenon:
 
-As this representational fidelity increases, models gain access to increasingly fine-grained structures embedded within the training corpus.
+Increasing representational fidelity.
 
-Many capabilities commonly treated as separate faculties may therefore be different manifestations of a single underlying phenomenon: increasing representational resolution.
+As AI systems become better at representing both human knowledge and human cognitive patterns, increasingly sophisticated behaviors become accessible.
+
+Reasoning, abstraction, planning, analogy, and generalization may therefore emerge together because they arise from a common representational substrate rather than from entirely separate cognitive faculties.
